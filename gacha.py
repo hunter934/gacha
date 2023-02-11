@@ -13,7 +13,10 @@ mylist50 = range(50)
 def gacha(mylist):
     nums = random.choices(mylist, weights=None)
     strnums = str(nums)
-    st.header(strnums)
+    if st.header(strnums) == "[0]":
+        st.header(strnums)
+    else:
+        st.header(strums)
 
 col1, col2, col3 = st.columns(3)
 

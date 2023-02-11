@@ -26,7 +26,7 @@ with col1:
     st.write(button2000)
     if button2000:
         gacha(mylist200)
-    elif button2000=False:
+    elif button2000=None:
         st.write(" ")
 
 with col2:
@@ -35,7 +35,7 @@ with col2:
     st.write(button5000)
     if button5000:
         gacha(mylist100)
-    elif button5000=False:
+    elif button5000=None:
         st.write(" ")
 
 with col3:
@@ -44,5 +44,5 @@ with col3:
     st.write(button10000)
     if button10000:
         gacha(mylist50)
-    elif button10000=False:
+    elif button10000=None:
         st.write(" ")

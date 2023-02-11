@@ -39,4 +39,4 @@ with col3:
     button10000 = st.button("IDR 10000")
     st.write(button10000)
     if button10000:
-        gacha(mylist503)
+        gacha(mylist50)

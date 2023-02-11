@@ -10,7 +10,7 @@ mylist100 = range(100)
 mylist50 = range(50)
 
 def gacha(mylist):
-    nums = random.choices(mylist, weights=None))
+    nums = random.choices(mylist, weights=None)
     st.write(nums)
 
 button2000 = st.button("IDR 2000")

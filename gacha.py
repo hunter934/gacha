@@ -1,6 +1,9 @@
 import random
 import streamlit as st
+from PIL import Image
 
+pic = Image.open('ub48.jpg')
+st.image(pic)
 st.title("UB48 @ Isshoni Tanoshimimashou 17")
 st.header("GACHA GACHA BERHADIAH")
 st.write("GRAND PRIZE PHOTOBOOK, CD original, towel, photopack, etc")

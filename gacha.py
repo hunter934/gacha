@@ -3,6 +3,7 @@ import streamlit as st
 
 st.title("UB48 @ Isshoni Tanoshimimashou 17")
 st.header("GACHA GACHA BERHADIAH")
+st.write("GRAND PRIZE PHOTOBOOK, CD original, towel, photopack")
 st.write("created by hunter934")
 
 mylist200 = range(200)
@@ -11,7 +12,8 @@ mylist50 = range(50)
 
 def gacha(mylist):
     nums = random.choices(mylist, weights=None)
-    st.write(nums)
+    strnums = str(nums)
+    st.write(strnums)
 
 col1, col2, col3 = st.columns(3)
 

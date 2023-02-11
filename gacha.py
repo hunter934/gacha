@@ -15,8 +15,6 @@ def gacha(mylist):
     strnums = str(nums)
     if st.header(strnums) == "[0]":
         st.header(strnums)
-    else:
-        st.header(strums)
 
 col1, col2, col3 = st.columns(3)
 

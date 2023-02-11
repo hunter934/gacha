@@ -8,7 +8,7 @@ st.title("UB48 @ Isshoni Tanoshimimashou 17")
 st.header("GACHA GACHA BERHADIAH")
 st.subheader("GRAND PRIZE PHOTOBOOK, CD original, towel, photopack, etc")
 
-mylist200 = range(2)
+mylist200 = range(200)
 mylist100 = range(100)
 mylist50 = range(50)
 

@@ -21,19 +21,22 @@ def gacha(mylist):
 col1, col2, col3 = st.columns(3)
 
 with col1:
+    st.write("Angka 1-200")
     button2000 = st.button("IDR 2000")
     st.write(button2000)
     if button2000:
         gacha(mylist200)
 
 with col2:
+    st.write("Angka 1-100")
     button5000 = st.button("IDR 5000")
     st.write(button5000)
     if button5000:
         gacha(mylist100)
 
 with col3:
+    st.write("Angka 1-50")
     button10000 = st.button("IDR 10000")
     st.write(button10000)
     if button10000:
-        gacha(mylist50)
+        gacha(mylist503)

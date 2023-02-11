@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 pic = Image.open('ub48.PNG')
-st.image(pic)
+st.image(pic, width=200)
 st.title("UB48 @ Isshoni Tanoshimimashou 17")
 st.header("GACHA GACHA BERHADIAH")
 st.write("GRAND PRIZE PHOTOBOOK, CD original, towel, photopack, etc")

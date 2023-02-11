@@ -27,9 +27,9 @@ with col1:
 with col2:
     st.write(button5000)
     if button5000:
-        gacha(mylist5000)
+        gacha(mylist100)
 
 with col3:
     st.write(button10000)
     if button10000:
-        gacha(mylist10000)
+        gacha(mylist50)
